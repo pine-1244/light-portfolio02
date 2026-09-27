@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@import "@fontsource/archivo/500.css";
+@import "@fontsource/archivo/600.css";
+@import "@fontsource/archivo/700.css";
+@import "@fontsource/public-sans/400.css";
+@import "@fontsource/public-sans/500.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+@theme {
+  --color-paper: #f1eee3;
+  --color-paper-2: #e8e3d2;
+  --color-paper-3: #ddd6bf;
+  --color-ink: #15140f;
+  --color-ink-soft: #3a372f;
+  --color-ink-muted: #464133;
+  --color-line: #d9d3c0;
+  --color-accent: #b8330f;
+  --color-accent-soft: #e9d9ce;
+  --color-accent-ink: #4a1207;
+
+  --font-display: "Archivo", "Segoe UI", sans-serif;
+  --font-body: "Public Sans", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-paper);
+}
+
+.has-custom-cursor,
+.has-custom-cursor * {
+  cursor: none !important;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 26s linear infinite;
+}
+
+@keyframes scan {
+  0% {
+    transform: translateX(-15%) skewX(-12deg);
+    opacity: 0;
+  }
+
+  12% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(520%) skewX(-12deg);
+    opacity: 0;
+  }
+}
+
+.group:hover .scan-sweep {
+  animation: scan 1s ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.project_link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience_period {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-description {
+  max-width: 560px;
+  padding-bottom: 20px;
+  /* color: #171713;
+  background: rgba(255, 250, 240, 0.9);
+  border-left: 4px solid #c65327; */
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 550;
+  line-height: 1.6;
+}
+
+.hero-title {
+  max-width: 360px;
+  padding-left: 15px;
+  color: #171713;
+  background: rgba(255, 250, 240, 0.9);
+  border-left: 4px solid #c65327;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 2;
+}

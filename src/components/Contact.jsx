@@ -43,7 +43,7 @@ export default function Contact() {
         note={
           <span className="inline-flex items-center gap-1.5">
             <MapPinIcon />
-            Florida, US
+            North Carolina, US
           </span>
         }
       />

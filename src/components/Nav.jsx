@@ -28,7 +28,7 @@ export default function Nav() {
         aria-label="Home"
         className="font-display text-2xl font-bold tracking-tight text-ink transition-opacity hover:opacity-70 md:px-8 md:text-6xl"
       >
-        E,M<span className="text-accent">.</span>
+        P,G<span className="text-accent">.</span>
       </a>
 
       <ul className="hidden md:flex md:flex-col md:gap-1 md:px-4">
@@ -79,7 +79,7 @@ export default function Nav() {
       <div className="hidden font-mono text-sm font-bold leading-relaxed md:block md:px-8">
         <p className="flex items-center gap-1.5 text-ink-soft">
           <MapPinIcon />
-          Florida, US
+          North Carolina, US
         </p>
 
         <p className="mt-3 flex items-center gap-2 text-ink-soft">

@@ -4,7 +4,7 @@ export const profile = {
   location: "North Carolina, United States",
   pitch:
     "Full-stack and applied AI engineer building applications across frontend, backend, and model integration. Focused on LLM applications, RAG, and AI agents, with a practical approach to architecture, evaluation, and reliable delivery.",
-  email: "ronaldo0207.code@gmail.com",
+  email: "patrickgraham0819@gmail.com",
   linkedin: "https://www.linkedin.com/in/patrick-graham-029280p/",
   github: "https://github.com/pine-1244",
   resumes: [
@@ -624,7 +624,7 @@ export const experience = [
     ],
   },
   {
-    role: "Senior Software Engineer",
+    role: "Full Stack Developer",
     company: "DataArt",
     companyUrl: "",
     location: "New York, NY",
@@ -669,54 +669,6 @@ export const experience = [
           "Collaborated with product and quality assurance teams on technical planning, code reviews, testing, and releases.",
         ],
         stack: ["Root-Cause Analysis", "Code Review", "Testing", "Release Delivery"],
-      },
-    ],
-  },
-  {
-    role: "Full Stack Developer",
-    company: "XeoDev",
-    companyUrl: "",
-    location: "Orlando, FL",
-    period: "Apr 2014 - Feb 2017",
-    summary:
-      "Developed and maintained web applications using React, Node.js, Python, and Django, implementing features across frontend and backend layers.",
-    impact: [],
-    work: [
-      {
-        tag: "01",
-        type: "Frontend Development",
-        title: "Responsive User Interfaces",
-        bullets: [
-          "Built responsive interfaces and reusable components that connected user workflows with application services.",
-        ],
-        stack: ["React", "Responsive Interfaces", "Reusable Components"],
-      },
-      {
-        tag: "02",
-        type: "Backend Development",
-        title: "Application APIs and Business Logic",
-        bullets: [
-          "Implemented API endpoints supporting business logic, input validation, and database operations.",
-        ],
-        stack: ["Node.js", "Python", "Django", "APIs"],
-      },
-      {
-        tag: "03",
-        type: "Performance",
-        title: "Application Responsiveness",
-        bullets: [
-          "Improved application responsiveness through frontend optimization and more efficient data retrieval.",
-        ],
-        stack: ["Frontend Optimization", "Data Retrieval"],
-      },
-      {
-        tag: "04",
-        type: "Quality Assurance",
-        title: "Cross-Browser Quality and Releases",
-        bullets: [
-          "Worked with designers, developers, and testers to resolve defects, improve browser compatibility, and support application releases.",
-        ],
-        stack: ["Browser Compatibility", "Testing", "Release Support"],
       },
     ],
   },
@@ -829,15 +781,9 @@ export const skillGroups = [
 
 export const education = [
   {
-    period: "Mar 2008 - Sep 2012",
-    title: "Bachelor of Engineering, AI",
-    org: "Cornell University",
-    detail: "",
-  },
-  {
-    period: "Apr 2001 - Mar 2004",
-    title: "Bachelor of Science, Computer Science",
-    org: "University of Miami",
+    period: "Mar 2017 - Sep 2020",
+    title: "Bachelor of Technology, Computer Software Engineering",
+    org: "North Carolina State University",
     detail: "",
   },
 ];

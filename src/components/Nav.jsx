@@ -79,7 +79,7 @@ export default function Nav() {
       <div className="hidden font-mono text-sm font-bold leading-relaxed md:block md:px-8">
         <p className="flex items-center gap-1.5 text-ink-soft">
           <MapPinIcon />
-          North Carolina, US
+          North Carolina
         </p>
 
         <p className="mt-3 flex items-center gap-2 text-ink-soft">

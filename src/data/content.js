@@ -4,7 +4,7 @@ export const profile = {
   location: "North Carolina, United States",
   pitch:
     "Full-stack and applied AI engineer building applications across frontend, backend, and model integration. Focused on LLM applications, RAG, and AI agents, with a practical approach to architecture, evaluation, and reliable delivery.",
-  email: "patrickgraham0819@gmail.com",
+  email: "patrickgrahamcool1244@gmail.com",
   linkedin: "https://www.linkedin.com/in/patrick-graham-029280p/",
   github: "https://github.com/pine-1244",
   resumes: [
